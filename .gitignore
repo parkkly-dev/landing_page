@@ -5,7 +5,6 @@ Thumbs.db # Windows image file cache
 Desktop.ini # Windows desktop icon settings
 
 # Editor directories and files
-.vscode/   # Visual Studio Code settings
 .idea/   # IntelliJ IDEA settings
 *.swp   # Vim swap files
 *.swo   # Vim swap files
@@ -19,3 +18,5 @@ Desktop.ini # Windows desktop icon settings
 
 # Others
 *.log   # Log files
+config.bat
+node_modules
