@@ -106,12 +106,18 @@
         </h1>
 
         <!-- <div class="flex items-start justify-start gap-[8px]"> -->
+          <form class="flex mq450:hidden items-center justify-start" action="" method="post" name="Waitlist Form" netlify>
+            <input type="email" class="w-3/5 h-[50px] bg-white pl-10 rounded-l-[140px]" placeholder="Your Email">
+            <input type="submit" value="Join Our Waitlist"
+              class="cursor-pointer rounded-r-[140px] w-auto text-[14px] capitalize font-roboto text-white [border:none] py-4 px-4 mq450:px-0 bg-[#0000FF] hover:bg-cornflowerblue">
+          </form>
+  
           <div class="flex mq450:hidden items-center justify-start">
-          <input type="text" class="w-3/5 h-[50px] bg-white pl-10 rounded-l-[140px]" placeholder="Your Email">
+          <!-- <input type="text" class="w-3/5 h-[50px] bg-white pl-10 rounded-l-[140px]" placeholder="Your Email">
         <button
           class="cursor-pointer rounded-r-[140px] w-auto text-[14px] capitalize font-roboto text-white [border:none] py-4 px-4 mq450:px-0 bg-[#0000FF] hover:bg-cornflowerblue">
           Join Our Waitlist
-        </button>
+        </button> -->
           <!-- <a href="">
             <img class="w-[204px] object-cover" loading="lazy" alt="" src="/public/link--googleplaypng1@2x.png" />
           </a> -->
@@ -133,13 +139,19 @@
           src="/public/container@2x.png" />
       </div>
       <!-- /mobile device -->
-      <div class="hidden mq450:flex items-center text-gray-300">
+      <!-- <div class="hidden mq450:flex items-center text-gray-300">
         <input type="text" class="w-3/5 h-[50px] bg-white pl-10 rounded-l-[140px]" placeholder="Your Email">
         <button
           class="cursor-pointer rounded-r-[140px] w-auto mq450:text-[14px] capitalize font-roboto text-white [border:none]  mq450:py-4 bg-[#0000FF] hover:bg-cornflowerblue">
           Join Our Waitlist
         </button>
-      </div>
+      </div> -->
+
+      <form class="hidden mq450:flex items-center text-gray-300" action="" method="post" name="Waitlist Form" netlify>
+        <input type="email" class="w-3/5 h-[50px] bg-white pl-10 rounded-l-[140px]" placeholder="Your Email">
+        <input type="submit" value="Join Our Waitlist"
+          class="cursor-pointer rounded-r-[140px] w-auto text-[14px] capitalize font-roboto text-white [border:none] mq450:py-4 bg-[#0000FF] hover:bg-cornflowerblue">
+      </form>
 
     </section>
     <section class="flex mq450:flex-col-reverse pt-8 px-20 mq450:px-2 gap-4 justify-between">
