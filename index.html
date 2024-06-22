@@ -102,12 +102,12 @@
           <b class="text-base font-manrope text-white text-center">Nearest Safe Park</b>
         </button>
         <h1 class="font-extrabold flex text-[64px] mq450:text-17xl font-manrope items-center max-w-full">
-          A safe parking at your fingertips always
+          Safe parking at your fingertips always
         </h1>
 
         <!-- <div class="flex items-start justify-start gap-[8px]"> -->
-          <form class="flex mq450:hidden items-center justify-start" action="" method="post" name="Waitlist Form" netlify>
-            <input type="email" class="w-3/5 h-[50px] bg-white pl-10 rounded-l-[140px]" placeholder="Your Email">
+          <form class="flex mq450:hidden items-center justify-start" action="/" method="post" name="Waitlist Form" netlify>
+            <input type="email" name="email" class="w-3/5 h-[50px] bg-white pl-10 rounded-l-[140px]" placeholder="Your Email">
             <input type="submit" value="Join Our Waitlist"
               class="cursor-pointer rounded-r-[140px] w-auto text-[14px] capitalize font-roboto text-white [border:none] py-4 px-4 mq450:px-0 bg-[#0000FF] hover:bg-cornflowerblue">
           </form>
@@ -147,8 +147,8 @@
         </button>
       </div> -->
 
-      <form class="hidden mq450:flex items-center text-gray-300" action="" method="post" name="Waitlist Form" netlify>
-        <input type="email" class="w-3/5 h-[50px] bg-white pl-10 rounded-l-[140px]" placeholder="Your Email">
+      <form class="hidden mq450:flex items-center text-gray-300" action="/" method="post" name="Waitlist Form" netlify>
+        <input type="email" name="email" class="w-3/5 h-[50px] bg-white pl-10 rounded-l-[140px]" placeholder="Your Email">
         <input type="submit" value="Join Our Waitlist"
           class="cursor-pointer rounded-r-[140px] w-auto text-[14px] capitalize font-roboto text-white [border:none] mq450:py-4 bg-[#0000FF] hover:bg-cornflowerblue">
       </form>
@@ -174,8 +174,8 @@
     <section class="pt-8 px-20 mq450:px-2 gap-4">
       <div
         class="flex flex-col font-semibold mq450:px-10 mq450:pb-6 text-center mq450:block text-17xl items-center justify-center">
-        <span class="m-0">Enjoy convenient parking</span>
-        <span class="m-0">with our near safe parks</span>
+        <span class="m-0">Enjoy convenient parking with</span>
+        <span class="m-0">our nearest safe parking space</span>
       </div>
       <div class="flex p-10 gap-10 mq450:flex-col">
         <div class="flex flex-col items-center justify-center">
@@ -271,7 +271,7 @@
         </div>
       </div>
     </section>
-    <section class="mt-8 pb-8 px-20 mq450:px-2 bg-whitesmoke">
+    <!-- <section class="mt-8 pb-8 px-20 mq450:px-2 bg-whitesmoke">
       <div class="flex flex-col items-center justify-center text-mediumslateblue-200 text-11xl font-bold capitalize">
         <p class="mq450:w-1/2 text-xl text-center">subscribe to our newsletters</p>
         <div
@@ -283,7 +283,7 @@
           <button class="h-[57.3px] w-28 relative rounded-3xs bg-blue uppercase text-white text-5xl">email</button>
         </div>
       </div>
-    </section>
+    </section> -->
     <footer
       class="self-stretch bg-gray-100 flex flex-col items-start justify-start pt-24  pb-[38px] pr-[151px] mq450:px-0 mq450:py-10 pl-[168px] gap-14 text-9xl text-white font-roboto">
       <div class="self-stretch flex mq450:flex-col mq450:px-8 items-start justify-start">
@@ -297,11 +297,24 @@
               Nearest Safe Park
             </p>
             <div class="flex flex-row items-start justify-between gap-[20px]">
-              <img class="h-[50px] w-[50px]" loading="lazy" alt="" src="/public/iconmonstrtwitter4-2.svg" />
+              <a href="https://x.com/Parkkly_hq?t=e4dtdWVUWwbyDCZch3bDeA&s=09" target="_blank" rel="noopener noreferrer">
+                <img class="h-[50px] w-[50px]" loading="lazy" alt="Twitter" src="/public/iconmonstrtwitter4-2.svg" />
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61561070467057&_rdc=2&_rdr" target="_blank" rel="noopener noreferrer">
+                <img class="h-10 w-10" loading="lazy" alt="" src="/public/iconmonstrfacebook4-2.svg" />
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img class="h-10 w-10" loading="lazy" alt="" src="/public/iconmonstrinstagram14-2.svg" />
+              </a>
+              <a href="https://www.linkedin.com/company/parkkly/" target="_blank" rel="noopener noreferrer">
+                <img class="h-10 w-10" loading="lazy" alt="" src="/public/iconmonstrlinkedin-4.svg" />
+              </a>
 
-              <img class="h-10 w-10" loading="lazy" alt="" src="/public/iconmonstrfacebook4-2.svg" />
+              <!-- <img class="h-[50px] w-[50px]" loading="lazy" alt="" src="/public/iconmonstrtwitter4-2.svg" /> -->
 
-              <img class="h-10 w-10" loading="lazy" alt="" src="/public/iconmonstrinstagram14-2.svg" />
+              <!-- <img class="h-10 w-10" loading="lazy" alt="" src="/public/iconmonstrfacebook4-2.svg" /> -->
+
+              <!-- <img class="h-10 w-10" loading="lazy" alt="" src="/public/iconmonstrinstagram14-2.svg" /> -->
             </div>
           </div>
         </div>
@@ -314,7 +327,7 @@
             <p class="m-0">
               Safety
             </p>
-            <p class="m-0">Cleaning Services</p>
+            <p class="m-0">Washing Services</p>
           </div>
         </div>
         <div class="w-[275px] mq450:w-auto flex flex-col items-start justify-start mq450:gap-2 gap-[32px]">
